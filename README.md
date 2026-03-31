@@ -1,15 +1,15 @@
-# network-packet-analysis-hpc
+network-packet-analysis-hpc
 
 # Network Packet Analysis Using HPC
 
-**C-DAC Chennai | Advanced HPC-AI Program | 2025**
+C-DAC Chennai | Advanced HPC-AI Program | 2025
 
-## Overview
+Overview
 A high-performance network traffic analysis system built using Python and C++ with OpenMP.
 Processes real-world network flow data (CICIDS 2017 dataset) to classify protocols and detect
 suspicious/anomalous traffic — designed for SOC environments.
 
-## Features
+Features
 - Classifies traffic into TCP, UDP, ICMP, HTTP/HTTPS, DNS, SSH, Email protocols
 - Detects Normal, Suspicious (SYN flood), and Anomalous traffic behavior
 - Parallel processing with OpenMP (C++) and Python multiprocessing
@@ -17,15 +17,15 @@ suspicious/anomalous traffic — designed for SOC environments.
 - Processed 547,557 network flow records from CICIDS 2017 dataset
 - Visualization: protocol distribution charts, traffic behavior pie charts
 
-## Tech Stack
+Tech Stack
 Python | Pandas | NumPy | Matplotlib | Jupyter Notebook | C++ | OpenMP | HPC
 
-## Files
+Files
 - `Python.ipynb` — Main analysis notebook (data loading, classification, visualization)
 - `Network.cpp` — C++ OpenMP parallel implementation
 - `CDAC_Final_Project-Network_Packet_Analysis.pdf` — Full project report
 
-## Results
+Results
 | Method | Execution Time |
 |--------|---------------|
 | Serial (Python) | 13.96 seconds |
